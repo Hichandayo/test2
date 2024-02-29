@@ -44,6 +44,14 @@
     cursor: pointer;
 }
 
+.SelectBT {
+    color: red;
+    border-radius: 20px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid red;
+}
+
 .picture {
     display: flex;
     justify-content: space-evenly;
@@ -62,6 +70,7 @@
     align-items: center;
     gap: 20px;
     color: rgb(217, 92, 92);
+    border-right: 5px;
 }
 
 .font {
@@ -80,7 +89,7 @@
 .check {
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+
 }
 
 li {
@@ -88,4 +97,35 @@ li {
     display: flex;
     align-items: center;
     gap: 10px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.p3 {
+    text-align: center;
+}
+
+.free {
+    display: flex;
+    border: solid 1px brown;
+    border-radius: 10px;
+    text-align: left;
+
+}
+
+.standard {
+    display: flex;
+    border: solid 1px brown;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.premium {
+    display: flex;
+    border: solid 1px brown;
+    border-radius: 10px;
 }
