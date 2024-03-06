@@ -1,0 +1,15 @@
+th {
+    background-color: blueviolet;
+}
+
+table {
+    border: 1px;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+
+}
