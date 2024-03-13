@@ -1,6 +1,169 @@
-font-family: "Dancing Script",
-cursive;
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+img,
+picture,
+svg,
+video {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+select,
+textarea {
+    background-color: transparent;
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+    background-color: transparent;
+    outline: none;
+    border: 0;
+}
 
 body {
-    background-image: url("image/hero-bg.jpg");
+    min-height: 100vh;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
 }
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+}
+
+.main-h1 {
+    color: white;
+    font-family: "Dancing Script", cursive;
+
+}
+
+.bottom-main-h1 {
+    color: white;
+    font-family: "Dancing Script", cursive;
+}
+
+.bottom-main-p {
+    color: white;
+
+}
+
+
+.main-p {
+    color: white;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+    background-color: black;
+}
+
+.header-p {
+    font-family: "Dancing Script", cursive;
+    color: white;
+    font-size: 30px;
+}
+
+.header-icons {
+    color: white;
+}
+
+.header-icons-div {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.header-list {
+    color: white;
+    display: flex;
+}
+
+.header-list-home {
+    color: orange;
+}
+
+.header-button {
+    background-color: orange;
+    border: none;
+    border-radius: 20px;
+    padding: 7px 30px 9px 30px;
+    color: white;
+}
+
+.main-button {
+    background-color: orange;
+    border: none;
+    border-radius: 20px;
+    padding: 7px 30px 9px 30px;
+    color: white;
+}
+
+.main-div {
+    position: relative;
+}
+
+.main-div-text {
+    position: absolute;
+    top: 261px;
+    left: 90px;
+    z-index: 10;
+}
+
+.carousel-control-prev-icon {
+    display: none !important;
+}
+
+.carousel-control-next-icon {
+    display: none !important;
+}
+
+.button-circle {
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 100% !important;
+
+}
+
+.carousel-indicators {
+    margin-bottom: 11rem !important;
+    margin-left: -65% !important;
+}
+
+.active {
+    background-color: yellow !important;
+}
+
+.main-div-pic2 {
+    background-color: rgb(8, 18, 32);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.image-bot-main {}
